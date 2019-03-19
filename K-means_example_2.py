@@ -39,7 +39,7 @@ class Classification():
 
 if __name__ == "__main__":
 
-    run = Classification
+    run = Classification()
 
     while True:
         run.value_atrib()
