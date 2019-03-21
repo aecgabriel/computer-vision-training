@@ -20,7 +20,7 @@ class Ident_corners():
         self.corners = cv2.dilate(self.corners, None)
         self.img[self.corners > 0.01*self.corners.max()] = [0, 0, 255]
         cv2.imwrite("/home/teo/Imagens/checkerboard2.png", self.img)
-
+        
 
 if __name__ == "__main__":
     run = Ident_corners()
